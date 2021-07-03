@@ -1,0 +1,30 @@
+{
+    "name": "jugalkariya94/laravel-migration-exporter",
+    "description": "Simple CLI for Laravel to export migrations to SQL",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jugal Kariya",
+            "email": "jugalkariya@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "jdorn/sql-formatter": "^1.2"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "JugalKariya\\LaravelMigrationExporter\\MigrationExporterServiceProvider"
+            ]
+        }
+    },
+
+    "autoload": {
+        "psr-4": {
+            "JugalKariya\\LaravelMigrationExporter\\": "src/"
+        },
+        "classmap": ["src/"]
+    }
+}
