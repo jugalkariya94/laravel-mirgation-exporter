@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Console\Commands;
+namespace JugalKariya\LaravelMigrationExporter;
 
 use Storage;
 use SqlFormatter;
