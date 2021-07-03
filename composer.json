@@ -1,5 +1,5 @@
 {
-    "name": "jugalkariya94/laravel-migration-exporter",
+    "name": "jugalkariya/laravel-migration-exporter",
     "description": "Simple CLI for Laravel to export migrations to SQL",
     "type": "library",
     "license": "MIT",
