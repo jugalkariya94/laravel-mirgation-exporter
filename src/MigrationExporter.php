@@ -17,11 +17,11 @@ class MigrationExporter extends MigrationBaseCommand
 
     protected $migrator;
 
-    public function __construct(Migrator $migrator)
+    public function __construct()
     {
         parent::__construct();
 
-        $this->migrator = $migrator;
+        $this->migrator = app("migrator");
     }
 
     protected function prepareDatabase()
